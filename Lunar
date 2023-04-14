@@ -1,0 +1,20 @@
+Github is a web based Git repository hosting service which primarily offers distributed version control and source code management functionality of git.
+Here are some interesting facts about github:
+1)Github was originally known as Logical Awesome LLC
+2)As of April 2016,Github reports having more than 14 million users and more than 35 million repositories making it the largest host of source code in the world.
+3)The trademark mascot of Github is called Octocat, a personified cat with octopus limbs portrayed in manga style.
+4)Approximately two-thirds of the employees at GitHub work remotely.
+5)In July 2015, Github raised $250M of venture capital in series B round.
+
+Brief history of git
+
+  As with many great things in life, Git began with a bit of creative destruction and fiery controversy.
+The Linux kernel is an open source software project of fairly large scope. For most of the lifetime of
+the Linux kernel maintenance (1991–2002), changes to the software were passed around as patches and archived 
+files. In 2002, the Linux kernel project began using a proprietary version control software called BitKeeper.
+In 2005, the relationship between the community that developed the Linux kernel and the commercial company that
+developed BitKeeper broke down, and the tool’s free-of-charge status was revoked. This prompted the Linux development 
+community (and in particular Linus Torvalds, the creator of Linux) to develop their own tool based on some of
+the lessons they learned while using BitKeeper.
+Since its birth in 2005, Git has evolved and matured to be easy to use and yet retain these initial qualities. 
+It’s incredibly fast, it’s very efficient with large projects, and it has an incredible branching system for non-linear development.
