@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+class Main
+{
+	public static void main(String[] args) {
+
+
+    Scanner input = new Scanner(System.in);
+
+    
+    
+    System.out.println("************Laboratory 1*************");
+    
+	System.out.print("Number of Lecture Subject: " );
+        float Lec = input.nextFloat();
+    System.out.print("Number of Laborotory Subject: ");
+        float Lab = input.nextFloat();
+    System.out.print("Price per Subject: ");
+       float price = input.nextFloat();
+ 
+     float  TNS = Lec + Lab ;
+    System.out.println("Total Number of Subject : "+ TNS );
+
+    for (int i = 0; i < 1;i++){
+        for ( int j = 0 ; j < 50; j++) {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    
+     float  LabFe = Lab * 300 ;
+    System.out.println("Laboratory Fee : "+ LabFe );
+    
+     float  TF = TNS * price + LabFe ;
+    System.out.println("Tuition Fee: "+ TF );
+    
+       for (int i = 0; i < 1;i++){
+        for ( int j = 0 ; j < 50; j++) {
+            System.out.print("*");
+        }
+        System.out.println();
+    }
+    
+    
+    float LibFe = 500 ;
+    float MedFe = 600 ;
+    float DenFe = 400 ;
+    
+    
+     float  MisFe = LibFe + MedFe + DenFe ;
+    System.out.println("Micellaneous Fee : "+ MisFe );
+    
+       float  ToFe = MisFe + TF ;
+    System.out.println("Total Fees: "+ ToFe );
+    
+    
+	}
+}
